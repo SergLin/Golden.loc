@@ -47,10 +47,25 @@ table {
   border-spacing: 0;
 }
 
+/*******helping adds*******/
+
+*{
+  box-sizing: border-box;
+}
+
+
 
 /********main css/********/
 
 
-h1{
-  font-size: 150px;
+.row{
+  width: 100%;
+  padding: 120px 0;
+}
+
+.row_header{
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+
 }
