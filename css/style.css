@@ -58,14 +58,18 @@ table {
 /********main css/********/
 
 
-.row{
+.container{
   width: 100%;
   padding: 120px 0;
+  border: 1px solid red;
 }
 
-.row_header{
+.container_header{
+  min-height: 698px;
   background-image: url(../img/header-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
-
 }
+
