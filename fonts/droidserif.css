@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif'), local('DroidSerif'), url('../fonts/droidserif.woff2') format('woff2'), url('../fonts/droidserif.woff') format('woff'), url('../fonts/droidserif.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif Italic'), local('DroidSerif-Italic'), 
+    url('../fonts/droidserifitalic.woff2') format('woff2'), 
+    url('../fonts/droidserifitalic.woff') format('woff'), 
+    url('../fonts/droidserifitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif Bold'), local('DroidSerif-Bold'), 
+    url('../fonts/droidserifbold.woff2') format('woff2'), 
+    url('../fonts/droidserifbold.woff') format('woff'), 
+    url('../fonts/droidserifbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), 
+    url('../fonts/droidserifbolditalic.woff2') format('woff2'), 
+    url('../fonts/droidserifbolditalic.woff') format('woff'), 
+    url('../fonts/droidserifbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
