@@ -80,6 +80,11 @@ table {
 	width: 100%;
 	min-width: 320px;
 	padding: 120px 0;
+  background-color: #ffff;
+}
+
+.container:nth-child(2n+1){
+  background-color: #f7f7f7;
 }
 
 .resize {
