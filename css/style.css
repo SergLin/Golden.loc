@@ -91,6 +91,7 @@ table {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
+	/*border: 0.5px dotted red;*/
 }
 
 .container_header {
@@ -103,6 +104,15 @@ table {
 	padding-top: 20px;
 	position: relative;
 }
+
+.container_services{
+	padding-bottom: 100px;
+}
+
+.container_portfolio{
+	padding-bottom: 70px;
+}
+
 
 .container_contact {
 	min-height: 698px;
@@ -317,7 +327,6 @@ table {
 
 /*******main*******/
 
-
 .section__titte {
 	font-size: 40px;
 	font-family: 'Montserrat';
@@ -341,9 +350,6 @@ table {
 .col{
 	float: left;
 	min-height: 1px;
-	padding: 0 15px;
-	margin-bottom: 20px;
-
 }
 
 .col_x3{
@@ -384,6 +390,11 @@ table {
 
 /*******services*******/
 
+.services{
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+
 .services__icon{
 	width: 70px;
 	height: 70px;
@@ -399,7 +410,7 @@ table {
 }
 
 .services__icon_ws{
-	background-position: -123px 13px;
+	background-position: -122px 13px;
 }
 
 .services__title{
@@ -414,4 +425,57 @@ table {
 	font-size: 14px;
 	font-family: 'Roboto Slab';
 	color: #777;
+}
+
+/********Our portfolio*******/
+
+.row_portfolio{
+	/*margin: 0 -17.5px;*/
+}
+
+.col_portfolio{
+	padding: 0 15px;
+
+}
+
+.portfolio{
+	margin-bottom: 50px;
+	/*padding: 0 15px;*/
+
+}
+
+.portfolio__link{
+	display: block;
+}
+
+.portfolio:hover{
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
+	
+}
+
+.portfolio__link>img{
+	width: 100%;
+	height: auto;
+}
+
+.portfolio__title{
+	background-color: #fff;
+	padding: 25px 0	; 
+}
+
+.portfolio__title>h3
+{
+	font-size: 18px;
+	font-family: 'Montserrat';
+	color: #333;
+	font-weight: bold;
+	padding-bottom: 8px; 
+}
+
+.portfolio__title>p
+{
+	font-size: 14px;
+	font-family: 'Droid Serif';
+	color: #737373;
+	font-style: italic;
 }
