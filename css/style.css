@@ -81,6 +81,7 @@ a{
 /*******header********/
 
 .container {
+	text-align: center;
 	width: 100%;
 	min-width: 320px;
 	padding: 120px 0;
@@ -129,12 +130,12 @@ a{
 }
 
 .row {
-	width: 100%;
-	text-align: center;
+
 	display: inline-block;
 }
 
 .row_nav {
+	width: 100%;
 	margin-bottom: 205px;
 }
 
